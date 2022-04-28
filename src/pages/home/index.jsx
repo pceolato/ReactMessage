@@ -28,9 +28,9 @@ export function Home() {
   return (
    
     <div className="container">
-      <header>
+
         <h1>Envio de Mensagens</h1>
-        </header>
+
         <div>
           <input type="text"
           placeholder="Nome"
@@ -41,7 +41,7 @@ export function Home() {
           onChange={email => setEmail(email.target.value)}/>
         </div>
         <input type="text"
-        placeholder="Digite uma mensagem"
+        placeholder="Digite sua mensagem"
         onChange={text => setMessage(text.target.value)}/>
       <button type="button" onClick={addMessage}>
         Enviar

@@ -3,10 +3,44 @@
     align-items: center;
     flex-direction: column;
 }
-/* .container header {
-    width: 50%;
-    margin: 84px 0 24px;
+.container div {
     display: flex;
     align-items: center;
-    justify-content: center;
-} */
+}
+.container h1 {
+    margin: 84px 0 24px;
+}
+
+.container input {
+    width: 50%;
+    padding: 24px;
+
+    background: #E6E6E6;
+    border-radius: 5px;
+    border: none;
+
+    margin: 4px;
+
+    font-size: 16px;
+}
+
+.container button {
+    width: 50%;
+    padding: 24px;
+    font-weight: 700;
+
+    background: #8257E5;
+    color: #fff;
+
+    border-radius: 5px;
+    margin: 12px 0 81px;
+    border: none;
+
+    cursor: pointer;
+
+    font-size: 16px;
+}
+
+.container button:hover {
+opacity: 0.9;
+}
