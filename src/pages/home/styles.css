@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+/* .container header {
+    width: 50%;
+    margin: 84px 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
