@@ -6,34 +6,36 @@
 .container div {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .container h1 {
     margin: 84px 0 24px;
+    color: #fff;
 }
 
 .container input {
-    width: 50%;
+    width: 49.8%;
     padding: 24px;
 
     background: #E6E6E6;
     border-radius: 5px;
     border: none;
 
-    margin: 4px;
+    margin: 2px;
 
     font-size: 16px;
 }
 
 .container button {
-    width: 50%;
+    width: 49.8%;
     padding: 24px;
     font-weight: 700;
 
-    background: #8257E5;
+    background: #EA4C89;
     color: #fff;
 
     border-radius: 5px;
-    margin: 12px 0 81px;
+    margin: 7px 0 81px;
     border: none;
 
     cursor: pointer;

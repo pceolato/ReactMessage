@@ -2,11 +2,16 @@ import './styles.css'
 
 export function Card(props) {
     return (
+        <>
         <div className="card">
+            <div>
             <strong>{props.name}</strong>
             <small>{props.email}</small>
-            <small>{props.time}</small>
-            <p>"{props.message}"</p>
+            </div>
+
         </div>
+
+         <p>{props.message}</p>
+         </>
     )
 }

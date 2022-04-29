@@ -1,10 +1,42 @@
-.card {
-    height: 100px;
+.card{
+    padding: 0 10px; /* vertical | horizontal */
     width: 50%;
+    height: 25px;
+
+    background: #8257E5;
+    color: #fff;
+
+    border: none;
+    border-radius: 5px 5px 0 0;
+}
+
+.card div {
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.card div strong {
+    font-size: 12px;
+}
+
+.card div small {
+    font-size: 8px;
+}
+
+p {
+    width: 50%;
+    height: 50px;
+
+    background: #6632df;
+    color: #fff;
 
     display: flex;
-    align-items: center;  /* vertical */
-    justify-content: space-between; /* horizontal */
+    justify-content: center;
+    align-items: center;
 
-    padding: 24px;
+    border: none;
+    border-radius: 0 0 5px 5px;
+
+    margin-bottom: 24px;
 }

@@ -35,7 +35,7 @@ export function Home() {
           <input type="text"
           placeholder="Nome"
           onChange={name => setUserName(name.target.value)}/>
-
+          
           <input type="email"
           placeholder="Email"
           onChange={email => setEmail(email.target.value)}/>
@@ -56,11 +56,11 @@ export function Home() {
         message={user.message}
         time={user.time}
       />
-    ))
-   }
+    ))                      
+   }                                                                                                                                                                                                                                                                                                                                                     
 
     </div>
-  )
-}
+  )                 
+}                                                     
 
 
