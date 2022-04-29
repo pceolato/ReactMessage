@@ -22,21 +22,21 @@ export function Home() {
       message: message
     }
 
-    let name = userName
-    let iden = email
-    let text = message
+    const name = userName
+    const identifier = email
+    const text = message
 
 
     if(name === '') {
 
-    } if(iden === '') {
+      } if(identifier === '') {
 
-    } if(text === '') {
+        } if(text === '') {
 
-    } else {
-      setUser(prevState => [...prevState, newMessage]) //prevState é o conteudo anterior do vetor do setstudents[]
+          } else {
+          setUser(prevState => [...prevState, newMessage]) //prevState é o conteudo anterior do vetor do setstudents[]
     }
-  
+    
   }
 
   return (
