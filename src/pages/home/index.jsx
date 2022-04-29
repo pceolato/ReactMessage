@@ -10,6 +10,7 @@ export function Home() {
   const [message, setMessage] = useState('')
   
   function addMessage() {
+
     const newMessage = {
       name: userName,
       email: email,
@@ -21,8 +22,21 @@ export function Home() {
       message: message
     }
 
-    setUser(prevState => [...prevState, newMessage]) //prevState é o conteudo anterior do vetor do setstudents[]
+    let name = userName
+    let iden = email
+    let text = message
 
+
+    if(name === '') {
+
+    } if(iden === '') {
+
+    } if(text === '') {
+
+    } else {
+      setUser(prevState => [...prevState, newMessage]) //prevState é o conteudo anterior do vetor do setstudents[]
+    }
+  
   }
 
   return (
