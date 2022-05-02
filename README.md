@@ -9,8 +9,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O formsReact é um projeto desenvolvido para para estudos, inicializando com ReactsJS.
+O formsReact é um projeto desenvolvido para para estudos, inicializando com ReactsJS. 
 
 <p align="center">
-    <img src="" width="350">
+    <img src="https://user-images.githubusercontent.com/88351152/166332543-80c4b84e-0a8f-4aa5-9d2b-0b66f790ba23.png" width="350">
 </p>
