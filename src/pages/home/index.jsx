@@ -9,6 +9,13 @@ export function Home() {
   const [email, setEmail] = useState('')
   const [message, setMessage] = useState('')
   
+
+  function clearFileds()  {
+    const fields = document.querySelectorAll('input')
+    fields.forEach(field => field.value = "")
+  } 
+
+
   function addMessage() {
 
     const newMessage = {
@@ -37,6 +44,8 @@ export function Home() {
           setUser(prevState => [...prevState, newMessage]) //prevState é o conteudo anterior do vetor do setstudents[]
     }
     
+    clearFileds()
+
   }
 
   return (
@@ -54,7 +63,8 @@ export function Home() {
           placeholder="Email"
           onChange={email => setEmail(email.target.value)}/>
         </div>
-        <input type="text"
+        <input
+        type="text"
         placeholder="Digite sua mensagem"
         onChange={text => setMessage(text.target.value)}/>
       <button type="button" onClick={addMessage}>
